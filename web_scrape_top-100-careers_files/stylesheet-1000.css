@@ -1,0 +1,70 @@
+@media screen and (max-width:1300px){
+    
+#page{width:100%;margin:0 auto;} 
+#header-main{width: 100%;background:#FEFDFD;}
+#header-main .searchbox {left: 0px;}
+.header-info-right{max-width:320px;padding-right:5px;}
+.bnr-980x60{text-align:center;width:100%;margin:0 auto;}
+.nav-main{
+    background: url("../images/nav-bg.gif") repeat-x scroll center top #F7F7F7;
+    line-height: 25px;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #C9C9C9;
+}
+    .nav-main #secondary-link-container a{font-weight: normal!important; border: none!important; line-height: 25px; color:#898B89; padding: 0px 20px!important; margin:0; text-decoration:none; font-size:0.925em;}
+    .nav-main #active{text-decoration:none!important; color:#FFFFFF; background-color: #F8F8F8;}
+    .nav-main .expanded:hover a{text-decoration:none!important; color:#666666!important; background-color:#F8F8F8;} 
+    
+.nav-main .expanded a{color:#4A4A4A;display:block; padding:5px 10px;margin:0;text-decoration:none;font-size:0.8em; border-right: 1px solid #C9C9C9;}
+    #content-body {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+.menu{}    
+#footer-bottom{width:100%;height:auto;overflow:hidden !important;}
+
+.degreefinderDiv{
+    width: 100%; 
+    margin-top: 0px;
+}
+
+.degreefinderForm input[type="text"]{
+    margin: 0px 10px 8px 0px;
+}
+
+.degreefinderForm input[type="image"]{
+    background:url(../images/btn-search.png) left no-repeat;
+    width: 75px; 
+    height: 30px;
+
+}
+
+#main-content{
+    float: left;
+    width: 100%;
+}
+
+#side-content{
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    width: 100%;
+}
+
+.side-banner{
+    text-align: center;
+}
+
+.top-side-banner {
+    text-align: center;
+}
+
+.long-side-banner {
+    text-align: center;
+}
+
+}

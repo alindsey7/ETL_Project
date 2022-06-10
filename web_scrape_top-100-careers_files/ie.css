@@ -1,0 +1,43 @@
+/* IE 10 Hacks*/  
+@media screen and (min-width:0\0) { 
+
+img{
+    height: auto;
+}
+   
+.nav-main .expanded a{
+    color:#4A4A4A;
+    display:block; 
+    padding:5px 19.5px;
+    margin-left: -1px;
+    text-decoration:none;
+    font-size:0.8em; 
+    border-right: 1px solid #C9C9C9;
+}
+
+.nav-main #active{
+    margin-left: -5px;
+} 
+
+.nav-main .expanded a.last{
+    padding-right: 21px;    
+}
+    
+
+.nav-main #secondary-link-container{
+    list-style:none;
+    display:block;
+    margin-left: -1px;
+    padding:6px 0px 12px 0px;
+    float:left;
+    position:absolute;
+    z-index:999999;
+    background-color:#3f5765;border-bottom-left-radius:5px;border-bottom-right-radius:5px;-moz-border-bottom-right-radius:5px;-moz-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;
+}
+
+.nav-main .expanded a.first{padding-left: 20px;} 
+
+}
+
+   
+
